@@ -3,8 +3,8 @@
         <title>Form</title>
     </head>
     <body>
-        <form action="action.php" method="POST">
-            <table>
+        <form action="action_page.php" method="POST">
+            <table border="1" cellspacing= "5">
                 <tr>
                     <td> Name: </td>
                     <td> <input type="text" name="name"> </td>
