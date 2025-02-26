@@ -1,9 +1,12 @@
 <?php
+    echo "<pre>";
     var_dump($_POST);
-    
-    $full_name = '';
-    $gender = '';
-    $country = '';
+    echo"</pre>";
+    echo"<br></br>";
+
+    $full_name = $_POST ['name'];
+    $gender = $_POST ['gender'];
+    $country = $_POST ['country'];
 ?>
 
 <?php
